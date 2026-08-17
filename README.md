@@ -283,3 +283,15 @@ Role-specific Dashboard
 Courses / Assignments / Quizzes
   ↓
 Progress and Results
+
+## Figma Design
+
+The UI/UX wireframes for EduCore were designed in Figma.
+
+### Core Viewports
+
+1. Authentication Screen
+2. Student Dashboard
+3. Course Details View
+
+**Figma Design:** [View EduCore UI/UX Design](https://www.figma.com/design/4YCqEvMVBHqrlVomCSmoYh/EduCore-%E2%80%94-UI-UX-Design?node-id=0-1&t=HBuaAd0saUzrIWPO-1)
