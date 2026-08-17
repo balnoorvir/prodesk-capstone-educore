@@ -1,518 +1,285 @@
+# EduCore
 
-# EduCore — Enterprise Learning Management System
+## Enterprise Learning Management System
 
-## Project Overview
+EduCore is an Enterprise Learning Management System designed to bring students, instructors, and administrators together on one platform. The system will make it easier for students to access courses and track their learning, while instructors can manage educational content and student activities.
 
-**Project Name:** EduCore
-**Project Type:** Enterprise Learning Management System (LMS)
-**Capstone Phase:** Sprint 13
-**Development Duration:** 4 Weeks
-
-### Objective
-
-EduCore is an enterprise-level Learning Management System designed to provide a centralized platform for students, instructors, and administrators.
-
-The platform will allow students to access courses, lessons, assignments, quizzes, grades, and learning progress. Instructors will be able to create and manage educational content, assignments, quizzes, and student performance. Administrators will manage users, courses, and overall platform activity.
+This project is being developed as part of the Prodesk IT Capstone Phase.
 
 ---
 
-## User Roles
+## Project Information
 
-### Student
-
-Students can:
-
-* Register and log in
-* Browse available courses
-* Enroll in courses
-* View enrolled courses
-* Access lessons
-* Mark lessons as completed
-* Track learning progress
-* View and submit assignments
-* Attempt quizzes
-* View grades and quiz results
-* Receive notifications
-
-### Instructor
-
-Instructors can:
-
-* Log in
-* Create and manage courses
-* Add, edit, and delete lessons
-* Create assignments
-* Review student submissions
-* Grade assignments
-* Create quizzes
-* View enrolled students
-* Monitor course performance
-
-### Administrator
-
-Administrators can:
-
-* Manage users
-* Manage students and instructors
-* Manage courses
-* Activate or deactivate accounts
-* View platform statistics
-* Monitor overall system activity
+| Field | Details |
+|---|---|
+| Project Name | EduCore |
+| Project Type | Enterprise Learning Management System (LMS) |
+| Designated Track | Full Stack Web Development |
+| Project Phase | Capstone Phase |
+| Development Duration | 4 Weeks |
+| Repository | `prodesk-capstone-educore` |
 
 ---
 
-## Core Functional Requirements
+# Project Objective
 
-### 1. Authentication
+The main objective of EduCore is to create a centralized learning platform where students can manage their courses and academic activities, instructors can manage learning content and evaluate students, and administrators can manage the overall platform.
 
-The system will provide:
-
-* User registration
-* User login
-* Logout
-* Password validation
-* Role identification
-* Protected routes
-* Role-based authorization
-
-Users will only be able to access features permitted for their assigned role.
-
-### 2. Student Dashboard
-
-The student dashboard will display:
-
-* Enrolled courses
-* Overall learning progress
-* Upcoming assignments
-* Recent activity
-* Recent grades
-* Notifications
-
-### 3. Course Management
-
-Students can:
-
-* Browse courses
-* Search courses
-* View course details
-* Enroll in courses
-* Access enrolled courses
-
-Instructors can:
-
-* Create courses
-* Edit courses
-* Delete their courses
-* Add and manage lessons
-
-Administrators can:
-
-* View all courses
-* Manage courses
-* Control course availability
-
-### 4. Learning Management
-
-Courses will contain modules and lessons.
-
-Students will be able to:
-
-* Open lessons
-* Mark lessons as completed
-* Continue from previous progress
-* View course completion percentage
-
-### 5. Assignment Management
-
-Students can:
-
-* View assignments
-* View deadlines
-* Read instructions
-* Submit assignments
-* View grades
-
-Instructors can:
-
-* Create assignments
-* Set deadlines
-* Add descriptions
-* View submissions
-* Grade submissions
-
-### 6. Quiz Management
-
-Students can:
-
-* Start quizzes
-* Answer questions
-* Submit quizzes
-* View quiz results
-
-Instructors can:
-
-* Create quizzes
-* Add questions
-* Add multiple-choice options
-* Define correct answers
-* View student results
-
-### 7. Grade Management
-
-Students can view:
-
-* Assignment scores
-* Quiz scores
-* Course performance
-* Overall grades
-
-Instructors can:
-
-* Enter assignment grades
-* Review student performance
-* View course-level performance
-
-### 8. Notifications
-
-The system may provide notifications for:
-
-* New assignments
-* Upcoming deadlines
-* Assignment grading
-* New courses
-* Quiz availability
-
-### 9. Analytics
-
-Student analytics may include:
-
-* Course completion
-* Quiz performance
-* Assignment performance
-* Overall progress
-
-Instructor analytics may include:
-
-* Number of enrolled students
-* Average scores
-* Course completion rate
-* Pending submissions
-
-Administrator analytics may include:
-
-* Total users
-* Total students
-* Total instructors
-* Total courses
-* Platform activity
+The application will focus on providing a clean dashboard-based experience with role-specific features.
 
 ---
 
-# Feature Prioritization
+# Target Users
 
-## P0 — Mandatory MVP
+EduCore will have three main types of users.
 
-The following features form the minimum viable product:
+### 1. Student
 
-* User authentication
-* Role-based authorization
-* Student dashboard
-* Instructor dashboard
-* Admin dashboard
-* Course management
-* Course enrollment
-* Lessons
-* Learning progress tracking
-* Assignments
-* Assignment submission
-* Assignment grading
-* Quizzes
-* Quiz results
-* Grades
-* Basic user management
+Students will use EduCore to:
 
-## P1 — Priority Features
+- Browse and enroll in courses
+- Access course lessons
+- Track their learning progress
+- View assignments
+- Submit assignments
+- Attempt quizzes
+- View grades and results
+- Receive important notifications
 
-* Course search
-* Course filtering
-* Notifications
-* Calendar
-* Student analytics
-* Instructor analytics
-* Improved admin analytics
+### 2. Instructor
 
-## P2 — Stretch Goals
+Instructors will use EduCore to:
 
-* AI learning assistant
-* AI-based course recommendations
-* Advanced analytics
-* Real-time notifications
-* Personalized learning suggestions
+- Create and manage courses
+- Add and manage lessons
+- Create assignments and quizzes
+- View student submissions
+- Grade assignments
+- View enrolled students
+- Monitor student performance
+
+### 3. Administrator
+
+Administrators will manage the overall platform and will be able to:
+
+- Manage users
+- Manage students and instructors
+- Manage courses
+- Monitor platform activity
+- View basic platform statistics
 
 ---
 
 # Technology Stack
 
-## Frontend
+The project will use the following technologies:
 
-* React
-* JavaScript
-* Vite
-* Redux Toolkit
-* CSS
+### Frontend
 
-## Backend
+- React
+- JavaScript
+- Vite
+- Redux Toolkit
+- CSS
 
-* Node.js
-* Express.js
+### Backend
 
-## Database
+- Node.js
+- Express.js
 
-* MongoDB
+### Database
 
-## API
+- MongoDB
 
-* REST API
+### API
 
-## Authentication
+- REST API
 
-* JWT-based authentication
+### Authentication
 
-## UI/UX Design
+- JWT-based authentication
 
-* Figma
+### Design and Planning
 
-## System Architecture
+- Figma for UI/UX design
+- Draw.io for system architecture diagrams
 
-* Draw.io
+### Version Control
 
-## Version Control
+- Git
+- GitHub
 
-* Git
-* GitHub
+### Deployment
 
-## Deployment
-
-* Vercel for frontend
-* MongoDB Atlas for database
-* Backend deployment platform to be finalized during implementation
-
----
-
-# Database Requirements
-
-EduCore will use MongoDB as its database.
-
-Initial collections will include:
-
-* `users`
-* `courses`
-* `lessons`
-* `enrollments`
-* `assignments`
-* `submissions`
-* `quizzes`
-* `questions`
-* `quiz_results`
-* `notifications`
-
-The final database structure and relationships will be represented through an Entity Relationship Diagram (ERD).
+- Vercel for frontend deployment
+- MongoDB Atlas for cloud database
+- Backend hosting will be finalized during development
 
 ---
 
-# Frontend State Management
+# Core Features
 
-Redux Toolkit will be used to manage global application state.
+The features are divided into three priority levels so that the most important functionality is completed first.
 
-The planned Redux state tree includes:
+## P0 — Mandatory Core Features
 
-```text
-Redux Store
-│
-├── auth
-├── courses
-├── lessons
-├── assignments
-├── quizzes
-├── progress
-├── grades
-├── notifications
-└── ui
-```
+These features make up the Base MVP and are the main focus of the project.
 
-The state structure may be refined during implementation based on application requirements.
+### Authentication and Authorization
+
+- User registration
+- User login and logout
+- Protected pages
+- Role-based access for Students, Instructors, and Administrators
+
+### Student Dashboard
+
+Students will have a dashboard showing:
+
+- Enrolled courses
+- Learning progress
+- Upcoming assignments
+- Recent grades
+- Notifications
+
+### Course Management
+
+Students can:
+
+- Browse available courses
+- View course details
+- Enroll in courses
+- Access enrolled courses
+
+Instructors can:
+
+- Create courses
+- Edit courses
+- Delete courses
+- Add and manage lessons
+
+Administrators can manage courses across the platform.
+
+### Lessons and Progress
+
+Students can:
+
+- View course lessons
+- Mark lessons as completed
+- Track their course completion progress
+- Continue learning from their previous progress
+
+### Assignments
+
+Students can:
+
+- View assignments
+- See assignment instructions
+- Check deadlines
+- Submit assignments
+- View their grades
+
+Instructors can:
+
+- Create assignments
+- Set deadlines
+- View student submissions
+- Grade submissions
+
+### Quizzes
+
+Students can:
+
+- Attempt quizzes
+- Submit answers
+- View quiz results
+
+Instructors can:
+
+- Create quizzes
+- Add questions and options
+- Set correct answers
+- View student results
+
+### Grades
+
+Students can view:
+
+- Assignment grades
+- Quiz results
+- Overall course performance
+
+Instructors can review and manage student performance.
+
+### Basic User Management
+
+Administrators can:
+
+- View users
+- Manage student and instructor accounts
+- Activate or deactivate accounts
 
 ---
 
-# API Requirements
+# P1 — Priority Features
 
-EduCore will use REST APIs for communication between the frontend and backend.
+After the Base MVP is completed, the following features will be considered:
 
-Initial planned endpoints include:
+- Course search
+- Course filtering
+- Notifications
+- Calendar
+- Student performance analytics
+- Instructor analytics
+- Improved administrator dashboard
+- Course progress reports
 
-```text
-POST   /api/auth/register
-POST   /api/auth/login
-POST   /api/auth/logout
-
-GET    /api/courses
-POST   /api/courses
-GET    /api/courses/:id
-PUT    /api/courses/:id
-DELETE /api/courses/:id
-
-GET    /api/courses/:id/lessons
-POST   /api/courses/:id/lessons
-
-GET    /api/assignments
-POST   /api/assignments
-POST   /api/assignments/:id/submit
-
-GET    /api/quizzes
-POST   /api/quizzes
-POST   /api/quizzes/:id/submit
-
-GET    /api/grades
-GET    /api/notifications
-```
-
-These endpoints represent the planned API architecture and will be implemented during the development phase.
+These features will be implemented depending on the progress of the MVP.
 
 ---
 
-# UI/UX Requirements
+# P2 — Stretch Features
 
-Figma will be used to design the EduCore interface before implementation.
+The following features are optional and will only be considered after the main application is stable:
 
-## Minimum Required Screens
+- AI learning assistant
+- AI-based course recommendations
+- Personalized learning suggestions
+- Advanced analytics
+- Real-time notifications
 
-1. Authentication Screen
-2. Main Dashboard
-3. Course Details / Data Details View
+These features are not required for the Base MVP.
 
-## Additional Planned Screens
+---
 
+# Main Application Views
+
+The initial UI/UX design will focus on the following screens:
+
+1. Authentication / Login
+2. Student Dashboard
+3. Course Details
 4. Instructor Dashboard
 5. Assignment Details
 6. Admin Dashboard
 
-The final Figma file will contain the application's UI designs and relevant user flows.
-
-**Figma Design:** To be added after completion.
+The first three screens will satisfy the minimum UI/UX design requirement, while the remaining screens will be developed as additional designs.
 
 ---
 
-# System Architecture
+# Planned Application Flow
 
-The planned system architecture is:
+The basic user flow will be:
 
 ```text
-                    USER
-                      │
-                      ▼
-              ┌──────────────┐
-              │   FRONTEND   │
-              │ React + Vite │
-              │ Redux Toolkit│
-              └──────┬───────┘
-                     │
-                  REST API
-                     │
-                     ▼
-              ┌──────────────┐
-              │   BACKEND    │
-              │Node.js +     │
-              │Express.js    │
-              └──────┬───────┘
-                     │
-                     ▼
-              ┌──────────────┐
-              │   MongoDB    │
-              │   Database   │
-              └──────────────┘
-```
-
-A detailed system architecture diagram and MongoDB ERD will be created during the architecture phase.
-
----
-
-# Security Requirements
-
-EduCore will implement:
-
-* Password protection
-* JWT authentication
-* Protected routes
-* Role-based authorization
-* Input validation
-* Secure API requests
-* Prevention of unauthorized access
-
-For example:
-
-```text
-Student → /admin/users → Access Denied
-
-Admin → /admin/users → Access Granted
-```
-
----
-
-# Responsive Design
-
-The application will be designed to work across:
-
-* Desktop
-* Laptop
-* Tablet
-* Mobile
-
-The Figma designs will primarily focus on desktop layouts while maintaining responsive design considerations.
-
----
-
-# Sprint 13 Deliverables
-
-## Phase 1 — Base MVP
-
-* [x] Project selected: EduCore
-* [ ] Create public GitHub repository
-* [ ] Repository name: `prodesk-capstone-educore`
-* [ ] Create comprehensive README / PRD
-* [ ] Define project name
-* [ ] Define designated track
-* [ ] Define technology stack
-* [ ] Define prioritized core features
-
-## Phase 2 — Priority 1
-
-* [ ] Create Figma project
-* [ ] Design minimum three core screens
-* [ ] Add public Figma link to README
-
-## Phase 3 — Priority 2 / Stretch
-
-* [ ] Create MongoDB ERD
-* [ ] Create Redux state tree diagram
-* [ ] Define mock API endpoints
-* [ ] Export architecture diagram
-* [ ] Embed architecture diagram in README
-
----
-
-# Success Criteria
-
-EduCore's planning phase will be considered successful when the PRD, UI/UX designs, database architecture, Redux state structure, and API plan provide a clear blueprint for implementing the application.
-
-The goal is to establish a scalable and maintainable architecture before beginning development, reducing technical debt and ensuring that the four-week capstone development phase has a clearly defined direction.
-
----
-
-## Project Status
-
-**Current Phase:** Sprint 13 — Product Planning, System Architecture & UI/UX Design
-
-**Development Status:** Planning and Design
-
-**Next Phase:** Application Development
-
+User
+  ↓
+Login / Registration
+  ↓
+Role Verification
+  ↓
+Role-specific Dashboard
+  ↓
+Courses / Assignments / Quizzes
+  ↓
+Progress and Results
