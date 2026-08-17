@@ -283,8 +283,11 @@ Role-specific Dashboard
 Courses / Assignments / Quizzes
   ↓
 Progress and Results
+```
 
-## Figma Design
+---
+
+# Figma Design
 
 The UI/UX wireframes for EduCore were designed in Figma.
 
