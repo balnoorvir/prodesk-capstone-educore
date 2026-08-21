@@ -14,7 +14,7 @@ This project is being developed as part of the Prodesk IT Capstone Phase.
 |---|---|
 | Project Name | EduCore |
 | Project Type | Enterprise Learning Management System (LMS) |
-| Designated Track | Full Stack Web Development |
+| Designated Track |Frontend Development |
 | Project Phase | Capstone Phase |
 | Development Duration | 4 Weeks |
 | Repository | `prodesk-capstone-educore` |
@@ -76,33 +76,31 @@ The project will use the following technologies:
 
 ### Frontend
 
+- Next.js
 - React
-- JavaScript
-- Vite
-- Redux Toolkit
-- CSS
+- TypeScript
+- Tailwind CSS
 
-### Backend
+### Backend / BaaS
 
-- Node.js
-- Express.js
+- Supabase
 
 ### Database
 
-- MongoDB
+- Supabase PostgreSQL
 
 ### API
 
-- REST API
+- Supabase Client API
 
 ### Authentication
 
-- JWT-based authentication
+- Supabase Auth
 
 ### Design and Planning
 
-- Figma for UI/UX design
-- Draw.io for system architecture diagrams
+- Figma
+- Draw.io
 
 ### Version Control
 
@@ -111,9 +109,7 @@ The project will use the following technologies:
 
 ### Deployment
 
-- Vercel for frontend deployment
-- MongoDB Atlas for cloud database
-- Backend hosting will be finalized during development
+- Vercel
 
 ---
 
@@ -275,6 +271,8 @@ The basic user flow will be:
 User
   ↓
 Login / Registration
+  ↓
+Supabase Authentication
   ↓
 Role Verification
   ↓
